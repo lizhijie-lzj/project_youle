@@ -5,6 +5,39 @@ $size_2:1200px;
 $fontsize_1:12px;
 $fontsize_2:14px;
 $fontsize_3:15px;
+$fontsize_4:16px;
+$color_1:#666;
 @import '_header.scss';
 @import '_wrapper.scss';
 @import '_louti_right.scss';
+@import './footer';
+
+a{
+    text-decoration: none;
+}
+.blue{
+    color: #06c;
+}
+.gray{
+    color: #666;
+}
+._red{
+    color: #c51010;
+}
+._white{
+    color: #fff;
+}
+.clear::after{
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}
+._block{
+    display: block;
+}
+ul{
+    list-style: none;
+}

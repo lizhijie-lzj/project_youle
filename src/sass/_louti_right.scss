@@ -8,3 +8,61 @@
     z-index: 666;
     background-color: #6c6c6c;
 }
+.louti_right_tabs{
+    z-index: 2020;
+    width: 40px;
+    height: 100%;
+    background-color: #6c6c6c;
+}
+.louti_right_mods{
+    z-index: 2019;
+}
+.louti_right_tabs_top{
+    position: absolute;
+    top: 40px;
+    z-index: 1;
+}
+.shangpin_biao{
+    position: relative;
+    background-color: #6c6c6c;
+    background: url(../images/ico_tabs.png) no-repeat 100px 0;
+    .shangbiao{
+        position: relative;
+        z-index: 2;
+        padding: 18px 8px;
+        width: 24px;
+        cursor: pointer;
+        i{
+            display: block;
+            width: 24px;
+            height: 24px;
+            background: url(../images/ico_tabs.png) no-repeat left -84px;
+        }
+    }
+    .wenzi{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 40px;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-family: "microsoft yahei";
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #000;
+    }
+    .shangbiao:hover +.wenzi{
+        display: block;
+    }
+    .wo_de_biao{
+        position: relative;
+        background-color: #6c6c6c;
+        background-position: 8px 0;
+        cursor: pointer;
+        background: url(../images/ico_tabs.png) no-repeat;
+    }
+
+}

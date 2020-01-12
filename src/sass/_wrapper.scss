@@ -1,5 +1,464 @@
 #wrapper{
     width: $size_1;
-    height: 5770px;
-    background-color: burlywood;
+
+    background-color: #f3f4f6;;
+}
+.first_banner{
+    width: 100%;
+    height: 467px;
+    background-color: rgb(153, 10, 30);
+    position: relative;
+}
+.banner_items{
+    li{
+        a{
+            display: block;
+            height: 467px;
+            margin: 0 auto;
+            img{
+                display: block;
+                height: 467px;
+                width: 100%;
+            }
+        }
+    }
+    .items_right{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .items_right_box{
+        float: right;
+        margin-right: 0;
+        width: 265px;
+        margin-top: -465px;
+        position: relative;
+        z-index: 1;
+        li{
+            width: 100%;
+            height: 143px;
+            margin-bottom: 9px;
+            margin-top: 7px;
+        }
+        img{
+            width: 265px;
+            height: 143px;
+            background-color: rgba(248, 248, 248, 0.9);
+        }
+        img:hover{
+            background-color: #fff;
+            transition: 0.7s;
+        }
+        
+    }
+}
+._dots{
+    position: absolute;
+    height: 24px;
+    margin-right: -315px;
+    right: 50%;
+    bottom: 15px;
+    span{
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        line-height: 17px;
+        background: url(../images/xiaobiaoqian.png) no-repeat -67px -158px;
+        text-align: center;
+        margin-left: 10px;
+        background-position: -67px -158px;
+        cursor: pointer;
+    }
+}
+.bottom_bd{
+    position: absolute;
+    height: 3px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.first_tab{
+    width: $size_2;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    ._tab_main{
+        width: $size_1;
+        float: left;
+        padding-top: 20px;
+        position: relative;
+        z-index: 2;
+        
+    }
+    ._tab_main_ad{
+        width: 100%;
+        margin-bottom: 20px;
+        padding-top: 53px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+    }
+    .tab_index{
+        width: $size_1;
+        height: 53px;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        h4{
+            width: 210px;
+            float: left;
+            height: 50px;
+            line-height: 50px;
+            padding-bottom: 2px;
+            text-align: center;
+            color: #333;
+            font-size: 16px;
+            font-family: "microsoft yahei";
+            cursor: pointer;
+            font-weight: normal;
+            span{
+                display: inline-block;
+                height: 25px;
+                width: 25px;
+                background: url(../images/xiangwangyu.png) no-repeat;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .i_1{
+                background-position: -25px 0;
+            }
+            .i_2{
+                background-position: -105px 0;
+            }
+            .i_3{
+                background-position: -51px 0;
+            }
+        }
+    }
+    .tab_items{
+        margin-top: 0px;
+        width: $size_1;
+        position: relative;
+        z-index: 1;
+        .cheaps{
+            width: 1200px;
+            height: 285px;
+            padding: 0;
+            overflow: hidden;
+            background: #fff;
+            border-top:1px solid #f1f0ec;
+            display: flex;
+
+            li{
+                padding: 10px 19px;
+                width: 200px;
+                height: 259px;
+                border-right: 1px solid #f1f0ec;
+                display: flex;
+                flex-direction: column;
+                align-items: center;               
+            }
+        }
+        .farmer_ad{
+            width: 1200px;
+            height: 130px;
+            margin: 20px auto 0;
+            display: flex;
+            justify-content: space-between;
+            a{
+                width: 390px;
+                height: 130px;
+                background-color: red;
+            }
+        }
+       ._tab_main_last{
+            width: 1200px;
+            height: 415px;
+            margin: 20px auto 0;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ._cols{
+                width: 369px;
+                height: 405px;
+                padding: 5px 10px;
+            }
+       }
+       ._sale{
+        height: 55px;
+        line-height: 55px;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-size: 20px;
+        }
+       }
+       ._inside{
+          
+            .hd_li{
+                width: 1480px;
+                height: 354px;
+                overflow: hidden;
+            }
+       }
+       .nan_bao{
+        width: 370px;
+        height: 354px;
+        float: left;
+        overflow: hidden;
+        }
+        ._inside_bottom{
+            text-align: center;
+            position: relative;
+            top: -20px;
+            span{
+                display: inline-block;
+                margin-left: 10px;
+                width: 11px;
+                height: 11px;
+                text-indent: -20px;
+                overflow: hidden;
+                background: url(../images/xiaobiaoqian.png) no-repeat;
+            }
+            .active_1{
+                background-position: -11px -76px;
+            }
+            .active_2{
+                background-position: 0 -76px;
+            }
+        }
+    }
+}
+.louceng_one{
+    width: 1200px;
+    margin: 0 auto 20px;
+    .one_top{
+        height: 40px;
+        padding-bottom: 1px;
+        margin-right: 2px;
+        border-bottom: 1px solid #ff7b30;
+        span{
+            display: inline-block;
+            width: 5px;
+            margin-top: 3px;
+            height: 25px;
+            float: left;
+            background: #ff7b30;
+        }
+        h3{
+            float: left;
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 10px;
+            margin: 6px 10px 0 15px;
+            font-size: 22px;
+            font-weight: bolder;
+            color: #ff7b30;
+        }
+        p{
+            float: left;
+            margin-top: 12px;
+            line-height: 16px;
+            display: block;
+            a{
+                float: left;
+                margin-left: 10px;
+                color: #99999b;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+        .lcone_right1{
+            float: right;
+            display: inline-block;
+            width: 18px;
+            height: 18px;
+            line-height: 16px;
+            background: url(../images/xiaobiaoqian.png) no-repeat -90px -158px;
+            text-indent: -10000px;
+            overflow: hidden;
+            margin: 7px;
+            margin-right: 0;
+            margin-top: 12px;
+        }
+        .lcone_right2{
+            float: right;
+            margin-top: 12px;
+            line-height: 16px;
+            font-size: 14px;
+            color: #333;
+        }
+    }
+    .one_bottom{
+        height: 550px;
+        background: #f3f4f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .one_bottom_left{
+        width: 270px;
+        height: $size_1;
+    }
+    .one_bottom_right{
+        width: 930px;
+        height: $size_1;
+    }
+    .mod_prodlist{
+        height: 560px;
+        overflow: hidden;
+        position: relative;
+        ul{
+            overflow: hidden;
+        }
+        li{
+            top:0;
+            padding: 10px;
+            width: 202px;
+            height: 250px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            background: #fff;
+            float: left;
+            position: relative;
+            img{
+                display: block;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+            }
+        }
+        li:hover{
+            box-shadow: 0 16px 30px -14px rgba(0,36,100,0.3);
+            transition: box-shadow .5s;
+            top: -4px;
+        }
+        .prod_title{
+            left: 20px;
+            width: 200px;
+            margin-bottom: 0;
+            margin-top: 10px;
+            right: 0;
+            bottom: 38px;
+            padding: 0 5px;
+            line-height: 17px;
+            height: 17px;
+            overflow: hidden;
+            background-color: rgba(255,255,255,0.8);
+        }
+        .prod_price{
+            margin-top: 8px;
+            line-height: 18px;
+            font-family: "microsoft yahei";
+            text-align: center;
+            span{
+                color: #c52e13;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+            }
+        }
+    }
+}
+.louceng_two{
+    .one_top{
+        border-bottom-color:#1bb145 ;
+        span{
+            background-color:#1bb145  ;
+        }
+        h3{
+            color:#1bb145; ;
+        }
+    }
+}
+.louceng_three{
+    .one_top{
+        border-bottom-color: #2289ff ;
+        span{
+            background-color:#2289ff  ;
+        }
+        h3{
+            color:#2289ff; ;
+        }
+    }
+}
+.louceng_four{
+    .one_top{
+        border-bottom-color: #000 ;
+        span{
+            background-color:#000  ;
+        }
+        h3{
+            color:#000; ;
+        }
+    }
+}
+.louceng_five{
+    .one_top{
+        border-bottom-color: #ff2f91 ;
+        span{
+            background-color:#ff2f91  ;
+        }
+        h3{
+            color:#ff2f91; ;
+        }
+    }
+}
+.guang_guang{
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    h1{
+        text-align: center;
+        font-size: 22px;
+        color: #333;
+        font-weight: bold;
+    }
+    h2{
+        margin: 35px auto 30px auto;
+        text-align: center;
+        font-size: 16px;
+        color: #bbb;
+        letter-spacing: 6px;
+        height: 30px;
+        line-height: 50px;
+        background: url(../images/end.png) no-repeat center;
+    }
+}
+.guang_middle{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+._gyg{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    li{
+        float: left;
+        width: 200px;
+        padding: 15px;
+        position: relative;
+        background: #fff;
+        margin: 6px;
+        a{
+            font-size: 14px;
+            display: block;
+            color: #333;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+.gyg_loading{
+    display: none;
+    height: 20px;
+    background: url(../images/loading.gif) center no-repeat;
 }

@@ -1,5 +1,297 @@
 #header{
     width: $size_1;
-    height:175px;
-    background-color: aqua;
+    height:255px;
+    font-size: $fontsize_1;
+    .head_top{
+        height: 29px;
+        background-color: #f7f7f7;        
+        position: relative;
+        z-index: 600;
+        padding-top: 6px;
+        border-bottom: 1px solid #ededed;
+        .layout{
+            width: $size_2;
+            margin: 0 auto;
+        }
+        .layout_left{
+            height: 22px;
+            display: block;
+            // list-style: none;
+            float: left;
+            .li_l{
+                width: 148px;
+                height: 27px;               
+            }
+            a{
+                
+                background:url(../images/ico_return-home.png) no-repeat left center;
+                padding-left: 20px;
+                color:$color_1;
+                line-height: 22px;
+            }
+        }
+        .layout_right{
+            // width: 805.13px;
+            display: flex;
+            float: right;
+            justify-content: flex-end;
+            align-items: center;
+            li{
+                padding: 0 12px;
+                line-height: 22px;
+            }           
+        }
+        ._same{
+            background: url(../images/header_1407.png) no-repeat -150px 5px
+          }
+        .phone_youle{
+            position: relative;
+        }
+        ._jiantou{
+            background: url(../images/header_1407.png) no-repeat right 2px
+        }
+        ._jiantou:hover{
+            background-position: right -18px;
+        }
+        .iphone_{
+            width: 16px;
+            height: 16px;
+            display: block;
+            position: absolute;
+            left: 10px;
+            top: 4px;
+            background: url(../images/header_1407.png) 
+        }
+        ._phone{
+            position: relative;
+        }
+        .dianhua{
+            display: block;
+            width: 60px;
+            height: 18px;
+            margin-top: 3px;
+            text-indent: -10000px;
+            overflow: hidden;
+            background: url(../images/header_1407.png) no-repeat -260px -25px;
+            padding-right: 0;
+        }
+    }
+    .head_middle{
+        background-color: #990a1e;
+        a{
+            display: block;
+            width: 100%;
+            height: 80px;
+            background: url(../images/f34fd717ccb4b228_-1x-1.jpg) no-repeat center center;
+        }
+    }
+    .head_bottom{
+        width: 1200px;
+        height: 99px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hb_left{
+            width: 75px;
+            height: 75px;
+            // background-color: #990a1e;
+            background: url(../images/logo.png);
+        }
+        .hb_center{
+            position: relative;
+            width: 533px;
+            height: 75px;
+            // background-color: #990a1e;  
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;  
+            ._search{
+                display: flex;
+                align-items: center;
+                width: 533px;
+                height: 36px;
+                background: url(../images/header_1407.png)no-repeat 0 -46px;
+                position: relative;
+            }
+            ._searchbox{
+                display: block;
+                margin-left: 6px;
+                width: 364px;
+                height: 28px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                color: $color_1;
+            } 
+            .search_btn{
+                width: 70px;
+                height: 36px;
+                background: url(../images/header_1407.png) no-repeat -370px -46px;
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+            ._ppp{
+                position: absolute;
+                left: 0;
+                top: 64px;
+            }       
+        }
+        
+        .hb_right{
+            position: relative;
+            width: 158px;
+            height: 34px;
+            border: 1px solid #bdbdbd;
+            background: url(../images/header_1407.png) no-repeat 0 -86px;
+            .car_text{
+                display: block;
+                padding-left: 31px;
+                line-height: 33px;
+                cursor: pointer;
+            }
+            .car_num{
+                display: block;
+                width: 58px;
+                height: 30px;
+                position: absolute;
+                right: 20px;
+                top: 0;
+                color: #900;
+                text-align: center;
+                line-height: 33px;
+                font-size: 16px;
+            }
+        }
+    }
+    .head_nav{
+        height: 39px;
+        background-color: #a71b1b;
+        border-top: 1px solid #7a090b;
+        position: relative;
+        width: 100%;       
+    }
+    .nav_center{
+        width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        .all_goods{
+            position: relative;
+            z-index: 2;
+            float: left;           
+            margin-top: -1px;
+            line-height: 40px;
+            text-align: center;
+            font-size: $fontsize_4;
+            background: url(../images/sprite_category.png) no-repeat 0 -16px;
+            a{
+                width: 190px;
+                height: 40px;
+                display: block;
+            }
+        }
+        .gray:hover span{
+            transform: rotate(360deg);
+            transition: 0.8s;
+        }
+        .goods_cate:hover +._hidden{
+            display: block;
+        }
+        ._hidden{
+            display: none;
+            position: absolute;
+            width: 1090px;
+            height: 469px;
+            box-shadow: -1px 2px 1px 0 #ccc;
+            background-color: white;
+            left: 190px;
+            top: 40px;
+        }
+        .goods_cate{
+            width: 190px;
+            height: 468px;
+            position: absolute;
+            background-color: rgba(248,248,248,.9);
+            display: flex;
+            flex-direction: column;
+            a{
+                width: 173px;
+                height: 36px;
+                font-size: $fontsize_1;    
+                display: flex;   
+                align-items: center;   
+                padding-left: 17px;  
+            }
+            
+            a:hover{
+                background-color: #fff;
+                box-shadow: -1px 2px 1px 0 #ccc;
+            }
+            
+            span{
+                width: 16px;
+                height: 16px;
+                background: url(../images/sprite_category.png) no-repeat;
+            }
+            .tese{
+                background-position: -144px 0;
+            }
+            .meizhuang{
+                background-position: -48px 0;
+            }
+            .jiaju{
+                background-position: -192px 0;
+            }
+            .chuwei{
+                background-position: -176px 0;
+            }
+            .dianqi{
+                background-position: -32px 0;
+            }
+            .muying{
+                background-position: -128px 0;
+            }
+            .xiangbao{
+                background-position: -80px 0;
+            }
+            .shouji{
+                background-position: 0 0;
+            }
+            .fuzhuang{
+                background-position: -64px 0;
+            }
+            .outdoor{
+                background-position: -112px 0;
+            }
+            .diannao{
+                background-position: -16px 0;
+            }
+            .qiche{
+                background-position: -272px -16px;
+            }
+            .trip{
+                background-position: -256px 0;
+            }
+        }
+        .goods_nav{
+            font-size: $fontsize_4;
+            float: right;
+            width: 1010px;
+            height: 39px;
+            display: flex;
+            align-items: center;
+            a{
+                width: 100px;
+                height: 39px;
+                padding: 0 10px;
+                line-height: 39px;
+                text-align: center;
+            }
+            a:hover{
+                background-color: #6c0709;;
+            }
+        }
+    }
 }
