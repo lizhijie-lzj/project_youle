@@ -57,12 +57,97 @@
     .shangbiao:hover +.wenzi{
         display: block;
     }
-    .wo_de_biao{
+    ._erweima_biao{
         position: relative;
-        background-color: #6c6c6c;
-        background-position: 8px 0;
+        z-index: 2;
+        padding: 18px 8px;
+        width: 24px;
         cursor: pointer;
-        background: url(../images/ico_tabs.png) no-repeat;
+        i{
+            position: relative;
+            background-color: #6c6c6c;
+            background-position: 8px 0;
+            cursor: pointer;
+            background: url(../images/ico_tabs.png) no-repeat left -108px;
+        }
+        
     }
 
+}
+.louti_right_tabs_middle{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    margin-top: -150px;
+}
+.minddle_tabs_{
+    position: relative;
+    background-color: #6c6c6c;
+    cursor: pointer;
+    background: url(../images/ico_tabs.png) no-repeat 100px 0;
+}
+.my_youle{
+    position: relative;
+    z-index: 2;
+    display: block;
+    padding: 18px 8px;
+    width: 24px;
+    i{
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url(../images/ico_tabs.png) no-repeat left -132px;
+    }
+    .gou_car{
+        background-position: left -156px;
+    }
+    .you_hui{
+        background-position: left -180px;
+    }
+    .my_zuji{
+        background-position: left -204px;
+    }
+    .back_top{
+        background-position: left -276px;
+    }
+}
+.my_youle_x{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 40px;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: black;
+}
+.my_youle:hover +.my_youle_x{
+    display: block;
+}
+._comeback{
+    position: absolute;
+    bottom: -210px;
+}
+.louti_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 301.5px;
+    bottom: 25px;
+    a{
+        width: 32px;
+        height: 32px;
+        text-align: center;
+        border-bottom: dotted 1px #ccc;
+        padding: 10px 0;
+    }
+    .return_top{
+        background: url(../images/huojian.png) no-repeat;
+    }
 }

@@ -1,0 +1,149 @@
+#register {
+    background: #f7f7f7;
+    padding: 20px 0;
+    font-family: Microsoft YaHei;
+}
+.register-box {
+    width: 920px;
+    height: 500px;
+    background: #fff;
+    padding: 30px 15px 0 15px;
+    margin: 0 auto;
+}
+.reg-title {
+    border-bottom: 1px solid #f0f0f0;
+    background: url(./images/title_tip.jpg) no-repeat center right;
+}
+.reg-title .title-txt {
+    width: 138px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #f0f0f0;
+    border-bottom: 0px;
+    margin-left: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.reg-main {
+    padding-left: 220px;
+}
+.reg-main .iTem {
+    margin-top: 25px;
+    height: 40px;
+    position: relative;
+}
+.reg-main .iTem .item-input {
+    width: 300px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+.reg-main .iTem input {
+    width: 278px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    border: 1px solid #cacaca;
+    color: #333;
+    font-size: 14px;
+    position: absolute;
+}
+.reg-main .iTem span.tip {
+    float: left;
+    width: 275px;
+    margin-left: 10px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #c52e15;
+    background: url(./images/zhucetubiao.jpg) no-repeat 1000px 0px;
+}
+.reg-main .iTem span.tip p {
+    padding-left: 20px;
+    background: url(./images/zhucetubiao.jpg) no-repeat -2px -64px;
+}
+.reg-main .iTem label {
+    width: 70px;
+    height: 40px;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999;
+}
+.reg-main .iTem .wrapcode {
+    width: 300px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.reg-main .iTem .wrapcode-box {
+    width: 600px;
+    height: 40px;
+}
+.reg-main .iTem .imgCode {
+    width: 300px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.reg-main .iTem .item-input {
+    width: 300px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+.reg-main .iTem .imgCode .item-input {
+    width: 162px;
+    height: 100%;
+}
+.reg-main .iTem .imgCode .item-input input {
+    width: 140px;
+}
+.reg-main .iTem .imgCode .item-input input {
+    width: 140px;
+}
+.reg-main .iTem .imgBtn {
+    float: left;
+    margin-left: 18px;
+    position: relative;
+}
+.reg-main .iTem .imgBtn img {
+    width: 120px;
+    height: 40px;
+    margin-right: 0;
+    cursor: pointer;
+}
+.reg-main .reg-btn {
+    margin-top: 0px;
+}
+.reg-prot .prot-main {
+    width: 600px;
+    height: 40px;
+    float: left;
+}
+.reg-prot #agreei {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background: url(./images/zhucetubiao.jpg) -115px -339px no-repeat;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.reg-prot .secondary {
+    color: #AEAEAE;
+    font-size: 14px;
+}
+
+.reg-btn a.disable {
+    background-position: 0 -141px;
+}
+.reg-btn a.regMobBtn {
+    display: inline-block;
+    background: url(./images/zhucetubiao.jpg) 0 -196px no-repeat;
+    height: 40px;
+    width: 350px;
+}

@@ -1,0 +1,593 @@
+.head-top li.bldr, .head-top li a.txt-down, .head-top li.licate a, .head-top li.liphone span.phone, .head-top li.liphone p.phonetips, .head-top li.liphone, .head-top .icon_list, .allCategory .allCategory_box_main li h4 a.more, .head-search .btn-search, .head-shopcart, .head-shopcart .shopcart-list li.list-preview a.go2cart, .head-top li.ulephone .ico-phone {
+    background: url(./images/header_1407.png) no-repeat;
+}
+.w1280 .header {
+    min-width: 1200px;
+}
+.header-simp {
+    border-bottom: solid 4px #a71b1c;
+}
+.header {
+    background-color: #fff;
+    position: relative;
+    font-family: Tahoma, "宋体";
+    font-size: 12px;
+    *zoom: 1;
+    clear: both;
+    z-index: 900;
+    min-width: 950px;
+}
+.head-top {
+    background-color: #f7f7f7;
+    padding-top: 6px;
+    height: 29px;
+    position: relative;
+    z-index: 902;
+    border-bottom: 1px solid #ededed;
+}
+.w1280 .layout {
+    width: 1200px;
+}
+.w950, .layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+.layout:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.head-top ul {
+    height: 22px;
+}
+.fl {
+    float: left !important;
+}
+.head-top li.lihome {
+    padding: 0;
+}
+.head-top li {
+    float: left;
+    padding: 0 12px;
+    line-height: 22px;
+    height: 27px;
+}
+.head-top li.lihome a {
+    background: url(./images/home1.png) no-repeat left center;
+    padding-left: 20px;
+}
+td, th, a {
+    color: #666;
+    text-decoration: none;
+}
+.fr {
+    float: right !important;
+}
+.head-top li.welcome {
+    padding-right: 0;
+}
+
+.blue, a.blue {
+    color: #06c;
+}
+.w1280 .head-top .txt-welcome {
+    display: inline;
+}
+.head-top li.dropdown {
+    z-index: 2;
+    width: 58px;
+    position: relative;
+}
+.head-top li.bldr {
+    background-position: -150px 5px;
+}
+.head-top li.dropdown a {
+    white-space: nowrap;
+}
+.head-top li a.txt-down {
+    background-position: right 2px;
+    padding-right: 10px;
+}
+.head-top li.dropdown ul {
+    width: 82px;
+}
+.head-top li.dropdown ul {
+    display: none;
+    height: auto;
+    position: absolute;
+    top: 22px;
+    left: -1px;
+    padding: 5px 0;
+    border: solid 1px #d9d9d9;
+    border-top: none;
+    background-color: #fff;
+}
+.head-top li.dropdown li {
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    float: none;
+    overflow: hidden;
+}
+.w1280 .head-top li.ulephone {
+    padding-left: 26px;
+    display: inline;
+}
+.head-top li.ulephone .ico-phone {
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+.head-top li.licate {
+    padding-left: 32px;
+    position: relative;
+}
+.head-top li.liphone {
+    position: relative;
+    padding-right: 0;
+    width: 61px;
+    z-index: 1;
+}
+.head-top li.liphone span.phone {
+    background-position: -260px -25px;
+    display: block;
+    width: 60px;
+    height: 18px;
+    margin-top: 3px;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+.head-top .icon_list {
+    width: 16px;
+    height: 16px;
+    background-position: -319px 0;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+.head-top li.licate a {
+    padding-right: 10px;
+    background-position: right 2px;
+}
+.head-top li.liphone p.phonetips {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 134px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    background-position: -130px -136px;
+}
+.header-simp .head-main {
+    height: 75px;
+    padding: 12px 0;
+    position: relative;
+    z-index: 1;
+}
+.head-logo {
+    height: 75px;
+    float: left;
+    background: url(./images/logo.png) no-repeat left bottom;
+}
+.head-logo .logo-ule {
+    width: 75px;
+}
+.head-logo a {
+    text-indent: -10000px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    height: 75px;
+}
+.head-shopcart {
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    width: 158px;
+    height: 34px;
+    background-position: 0 -86px;
+    border: 1px solid #bdbdbd;
+    background-color: #fff;
+    z-index: 901;
+    display: none;
+}
+.head-shopcart .shopcart-sum {
+    padding-left: 31px;
+    line-height: 33px;
+    cursor: pointer;
+}
+.head-shopcart ul.shopcart-list {
+    display: none;
+    top: 41px;
+    right: -1px;
+    position: absolute;
+    width: 280px;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    color: #666;
+    z-index: 1;
+}
+.head-shopcart .shopcart-list li.list-empty {
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+    line-height: 16px;
+    color: #333;
+    border-bottom: none;
+    height: auto;
+}
+.head-shopcart .shopcart-list li {
+    overflow: hidden;
+}
+.w1280 .head-search {
+    width: 533px;
+    margin-right: 216px;
+    display: none;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+.head-search form {
+    height: 36px;
+}
+.w1280 .head-search .search-suggest {
+    width: 458px;
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    padding: 0px 0px 0px 0px;
+    border: solid 1px #dfdfdf;
+    background: #fff;
+    z-index: 898;
+}
+.header-simp .head-search p, .header-simp .head-nav {
+    display: none;
+}
+.head-search p.search-hotkeys {
+    line-height: 18px;
+    margin-top: 5px;
+    height: 18px;
+    overflow: hidden;
+    padding: 0;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Tahoma,Arial,Verdana,Simsun;
+}
+input[type="hidden" i] {
+    display: none;
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    padding: initial;
+    border: initial;
+}
+.w1280 .head-search .txt-keyword {
+    width: 447px;
+}
+.head-search .txt-keyword {
+    float: left;
+    border: solid 3px #c7181d;
+    border-right: none;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    font-size: 14px;
+    box-sizing: content-box;
+}
+.head-search .btn-search {
+    width: 73px;
+    height: 36px;
+    background-position: -370px -46px;
+}
+.w1280 #wrapper, .w1280 .wrap {
+    width: 1200px;
+    margin: 0 auto;
+    height: 495px;
+    position: relative;
+    padding: 0;
+    min-width: 950px;
+}
+#wrapper .wrapper-box {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 495px;
+    width: 100%;
+    background: #dfdfdf url(./images/bigpicture.jpg) center center no-repeat;
+}
+#wrapper .login-box {
+    width: 950px;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+}
+#wrapper .login-form, div.weixinpanel {
+    width: 332px;
+    background-color: #FFF;
+    border-radius: 3px;
+    top: 5px;
+    box-shadow: #999 0px 0px 2px;
+    height: 485px;
+}
+#wrapper .login-form {
+    right: 0;
+    z-index: 13;
+    position: absolute;
+    border: 1px solid #FFF;
+    width: 310px;
+    height: auto;
+    float: left;
+    top: 30px;
+}
+#wrapper .login-form .del {
+    right: 27px;
+    top: 78px;
+}
+#wrapper .login-form .del {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: url(./images/gray_incorrect.png) center right no-repeat;
+    display: none;
+    cursor: pointer;
+}
+#wrapper .login-form .auto-mail-fixed {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #e9e9e9;
+    display: none;
+    height: auto;
+    left: 15px;
+    position: absolute;
+    top: 105px;
+    width: 300px;
+    z-index: 9;
+}
+.login-form .box-title {
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 18px 0 26px 15px;
+    display: block;
+}
+.login-one {
+    display: block;
+}
+.login-form .email-wrap {
+    height: 62px;
+}
+.email-wrap, .input-wrap, .mobile-wrap, .imgcode-wrap, .smscode-wrap, #wrapper div.inputboxWrapperShort {
+    position: relative;
+}
+.login-form .email-icon, .login-form .pwd-icon, .login-form .code-icon {
+    background: url(/i/login/2015/0415/login_icons.png) no-repeat;
+    position: absolute;
+    display: block;
+    height: 38px;
+    width: 23px;
+    left: 21px;
+    top: 0;
+}
+
+
+
+/***********************************************#wrapper*********************************************/
+#wrapper {
+    width: 1200px;
+    height: 495px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 950px;
+}
+#wrapper .wrapper-box {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 495px;
+    width: 100%;
+    display: block;
+    background: #dfdfdf url(./images/bigpicture.jpg) center center no-repeat;
+}
+#wrapper a.alink {
+    display: inline-block;
+    width: 50%;
+    height: 450px;
+    margin-left: 10%;
+}
+
+
+#wrapper .login-form {
+    right: 0;
+    z-index: 13;
+    position: absolute;
+    border: 1px solid #FFF;
+    float: left;
+    width: 332px;
+    background-color: #FFF;
+    border-radius: 3px;
+    top: 5px;
+    box-shadow: #999 0px 0px 2px;
+    height: 485px;
+}
+.login-form .email-icon, .login-form .pwd-icon, .login-form .code-icon {
+    background: url(./images/_icons.png) no-repeat;
+    position: absolute;
+    display: block;
+    height: 38px;
+    width: 23px;
+    left: 21px;
+    top: 0;
+}
+.login-form .email-icon {
+    background-position: 0 -85px;
+}
+#wrapper .login-form .account, #wrapper .login-form .password, #wrapper .login-form .userMobile, #wrapper .login-form .userImgcode, #wrapper .login-form .userSmscode, input#randomCode {
+    background: none;
+}
+#wrapper .login-form .account {
+    background-position: 6px -86px;
+    float: left;
+}
+#wrapper .login-form .account, #wrapper .login-form .password, input#randomCode {
+    width: 277px;
+    height: 18px;
+    line-height: 18px;
+    padding: 10px 0 10px 23px;
+    border: 1px solid #cacaca;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+}
+#wrapper .login-form .mail-error-tips, #wrapper .login-form .psd-error-tips, #randomCodeTip {
+    float: left;
+    background: url(/i/login/2015/0415/login_icons.png) no-repeat;
+    background-position: 0 -32px;
+    line-height: 16px;
+    text-indent: 20px;
+    width: 294px;
+    margin: 2px 0 4px 16px;
+    background-color: #fff;
+}
+#wrapper .login-form .mail-error-tips {
+    display: none;
+    color: #eb3937;
+}
+.login-form .input-wrap {
+    height: 60px;
+}
+.login-form .pwd-icon {
+    background-position: 0 -117px;
+}
+.login-box .autologin {
+    padding: 0 0 10px 12px;
+    position: relative;
+    width: 309px;
+    float: left;
+}
+.login-box .autologin input {
+    float: left;
+}
+.login-box .autologin .autotip {
+    color: #656567;
+    line-height: 20px;
+}
+.login-box .autologin i.l_help {
+    height: 12px;
+    width: 12px;
+    text-indent: -999em;
+    overflow: hidden;
+    background: url(./images/icons.png) no-repeat -29px -36px;
+    float: left;
+    margin: 4px 0 0 4px;
+    cursor: pointer;
+}
+#wrapper .login-form .forgot {
+    padding: 0;
+    float: right;
+}
+.blueLink {
+    color: #03c;
+}
+#wrapper .login-btn {
+    padding: 0;
+    margin: 0;
+    margin-left: 15px;
+    background: none;
+    width: 302px;
+    color: #fff;
+    border: 1px solid #a71427;
+    background-color: #d10208;
+    height: 38px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+.mobile-login {
+    display: block;
+}
+#wrapper .login-form .no-account {
+    padding: 10px 14px 0 0;
+    float: right;
+}
+#wrapper .login-form .no-account em {
+    color: #1675be;
+    font-size: 12px;
+    font-style: normal;
+    cursor: pointer;
+}
+#wrapper .coop-site {
+    margin-bottom: 2px;
+    width: 317px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #ededed;
+    height: 100px;
+    clear: both;
+}
+.coop-site .txt {
+    line-height: 30px;
+    display: block;
+    color: #999999;
+}
+#wrapper .coop-site {
+
+    text-align: left;
+}
+.coop-site a.pic-link1, .coop-site a.pic-link2, .coop-site a.pic-link3, .coop-site a.pic-link4, .coop-site a.pic-link5 {
+    float: left;
+    width: 50px;
+    margin-right: 24px;
+    background: url(./images/links_icon.png) no-repeat;
+}
+.coop-site a.pic-link1 {
+    background-position: 0 0;
+    display: inline-block;
+    height: 50px;
+}
+.coop-site a.pic-link2 {
+    background-position: -59px 0;
+    display: inline-block;
+    height: 50px;
+}
+.coop-site a.pic-link3 {
+    background-position: -118px 0;
+    width: 70px;
+    float: left;
+    margin-right: 24px;
+    display: inline-block;
+    height: 50px;
+}
+.coop-site a.pic-weixin {
+    background: none !important;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    opacity: 0.7;
+    display: block;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./copy/login.css">
+    <link rel="stylesheet" href="./stylesheets/index.css">
+    <link rel="stylesheet" href="./registry.css">
+</head>
+
+<body>
+    <div class="header header-simp">
+        <div class="head-top">
+            <div class="layout">
+
+                <ul class="fl" data-uspm="111">
+                    <li class="lihome"><a data-uspm="home" href="#" target="_blank">邮乐首页</a></li>
+                </ul>
+                <ul class="userinfo fr" data-uspm="111" data-uspm-type="all">
+                    <li class="welcome"><a title="" href="#" target="_blank" class="blue"></a> 您好<span
+                            class="txt-welcome">，欢迎来到邮乐网</span>！</li>
+                    <li class="login"><a data-uspm="u1" href="#" class="blue">[请登录]</a> <a data-uspm="u2" href="#"
+                            class="blue">[免费注册]</a></li>
+                    <li class="bldr dropdown myaccount">
+                        <a data-uspm="m0" class="txt-down" href="#" target="_blank" rel="nofollow">我的邮乐</a>
+                        <ul>
+                            <li><a data-uspm="m1" href="#" target="_blank" rel="nofollow">我的订单</a></li>
+                            <li><a data-uspm="m2" href="#" target="_blank" rel="nofollow">我的收藏</a></li>
+                            <li><a data-uspm="m3" href="#" target="_blank" rel="nofollow">我的消息</a></li>
+                        </ul>
+                    </li>
+                    <li class="bldr dropdown ulephone">
+                        <span class="ico-phone"></span>
+                        <a class="txt-down" href="javascript:void(0)" target="_blank"
+                            rel="nofollow">&nbsp;&nbsp;手机邮乐</a>
+                        <ul class="uleapp">
+                            <li><img src="#" alt="手机邮乐"></li>
+                        </ul>
+                    </li>
+                    <li class="bldr licate"><span class="icon_list"></span><a data-uspm="cate" href="#"
+                            target="_blank">全部商品分类</a></li>
+                    <li class="bldr sitemap"><a data-uspm="map" href="#" target="_blank">网站地图</a></li>
+                    <li class="bldr dropdown helpcenter">
+                        <a data-uspm="help0" class="txt-down" href="#" target="_blank" rel="nofollow">帮助中心</a>
+                        <ul>
+                            <li><a data-uspm="help1" href="#" target="_blank" rel="nofollow">购物指南</a></li>
+                            <li><a data-uspm="help2" href="#" target="_blank" rel="nofollow">支付帮助</a></li>
+                            <li><a data-uspm="help3" href="#" target="_blank" rel="nofollow">配送方式</a></li>
+                            <li><a data-uspm="help4" href="#" target="_blank" rel="nofollow">售后服务</a></li>
+                            <li><a data-uspm="help5" href="#" target="_blank" rel="nofollow">关于邮乐</a></li>
+                        </ul>
+                    </li>
+                    <li class="bldr liphone">
+                        <span data-uspm="11185" class="phone">11185</span>
+                        <p class="phonetips"></p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="head-main layout">
+
+            <div class="head-logo" data-uspm="101">
+                <a href="//www.ule.com/" class="logo-ule">邮乐网</a>
+            </div>
+
+        </div>
+    </div>
+    <div id="register">
+            <div class="register-box">
+                <div class="reg-title">
+                    <div class="title-txt">新用户注册</div>
+                </div>
+                <form action="/usr/sslregisterPost.do" method="post" id="MobileForm" name="MobileForm" autocomplete="off">
+                    <input type="hidden" id="ule_token_name" name="ule_token_name" readonly="readonly" value="3N86LB95NCPADTHV9DKXK024JAEUCGSZ">
+                    <div class="reg-main">
+                        <div class="iTem reg-phone">
+                            <label>手机号码</label>
+                            <div class="item-input">
+                                <input type="text" name="userMobile" id="userMobile" data-tip="请输入您的手机号" value="" maxlength="13" placeholder="请输入您的手机号">
+                            </div>
+                            <span class="tip">
+                                <p>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                   
+                                </p>
+                            </span>
+                        </div>
+                        <div class="iTem reg-imgCode">
+                            <label>验证码</label>
+                            <div class="wrapcode">
+                                <div class="wrapcode-box">
+                                    <div class="imgCode">
+                                        <div class="item-input">
+                                            <input name="keys" id="keysmob" type="hidden" value="384b70ecc3712cde95118b4dd608db58">
+                                            
+                                                
+                                                    <input type="text" id="mobileCode" disabled="disabled" placeholder="请输入计算结果" class="inputbox short msged val" name="mobileCode" maxlength="4" size="8">
+                                                
+                                                
+                                            
+                                        </div>
+                                        <div class="imgBtn">
+                                            <img class="captcha" name="reloadMobileImage" id="reloadMobileImage" src="//pub.ule.com/validatecode/c48fcf0acdfac629/getCodeImage?key=384b70ecc3712cde95118b4dd608db58"> <a href="javascript:void(0);" id="getImg" class="getImg">换一张</a>
+                                        </div>
+                                    </div>
+                                    <div class="phoneCode" style="display: none;">
+                                        <div class="item-input">
+                                            <input type="text" name="validCode" id="mobilePCode" maxlength="6">
+                                        </div>
+                                        <div class="phoneBtn">
+                                            <a href="#" id="getPhoneCode" class="getPhoneCode">获取验证码</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="tip">
+                                <p> 
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </p>
+                            </span>
+                            <div class="floatTip">
+                                <i class="arrow"></i>
+                                <p></p>
+                                <a href="javascript:void(0);" class="closeBtna"></a>
+                            </div>
+                        </div>
+    
+                        <div class="iTem reg-userPwd">
+                            <label>设置密码</label>
+                            <div class="item-input">
+                                <input type="password" name="userPasswd" id="userPasswd" autocomplete="off" data-tip="请设置6-20位字符的密码" placeholder="请设置6-20位字符的密码">
+                            </div>
+                            <span class="tip">
+                                <p>
+                                    
+                                    
+                                </p>
+                            </span>
+                        </div>
+    
+                        <div class="iTem reg-repeatPasswd">
+                            <label>确认密码</label>
+                            <div class="item-input">
+                                <input type="password" name="repeatPasswd" id="repeatPasswd" autocomplete="off" data-tip="再次输入密码" placeholder="再次输入密码">
+                            </div>
+                            <span class="tip">
+                                <p>
+                                    
+                                    
+                                    
+                                </p>
+                            </span>
+                        </div>
+    
+                        <div class="iTem reg-prot">
+                            <label></label>
+                            <div class="prot-main">
+                                <i id="agreei"></i> <input type="hidden" id="agreePrivacy2" name="agreePrivacy2" value="1"> <span for="agreePrivacy" class="secondary"> 我接受 <a class="blueLink" href="//help.ule.com/helpcenter/62/16.html?uspm=1.2001.101569_1.nav.16_62.1" target="_blank">《邮乐用户协议》</a><a class="blueLink" href="//help.ule.com/helpcenter/63/3.html?uspm=1.2001.101569_16.nav.3_63.1" target="_blank">《隐私权政策》</a> 及其相关的条款和条件
+                                </span>
+                            </div>
+                        </div>
+    
+                        <div class="iTem reg-btn">
+                            <label></label>
+                            <div class="btn-main">
+                                <input type="hidden" id="regtype" name="regtype" value="mobile">
+                                <a class="regMobBtn disable" href="javascript:void(0);"></a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <div id="bottom1"></div>
+    <script src="./script/jquery.js"></script>
+    <script>
+        jQuery('#bottom1').load('./footer.html');
+    </script>
+</body>
+
+</html>
