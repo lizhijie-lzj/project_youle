@@ -143,7 +143,10 @@
 }
 .reg-btn a.regMobBtn {
     display: inline-block;
-    background: url(./images/zhucetubiao.jpg) 0 -196px no-repeat;
+    background: url(./images/zhucetubiao.jpg) 0 -141px no-repeat;
     height: 40px;
     width: 350px;
 }
+/* .reg-btn a.disable {
+    background-position: 0  !important;
+} */

@@ -164,7 +164,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
   width: 100%;
   height: 80px;
-  background: url(../images/f34fd717ccb4b228_-1x-1.jpg) no-repeat center center;
+  background: url(https://pic1.ulecdn.com/item/user_0102/desc20200103/f34fd717ccb4b228_-1x-1.jpg) no-repeat center center;
 }
 /* line 89, ../sass/_header.scss */
 #header .head_bottom {
@@ -1146,29 +1146,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  left: 301.5px;
+  left: 286.5px;
   bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
 }
-/* line 143, ../sass/_louti_right.scss */
+/* line 146, ../sass/_louti_right.scss */
 .louti_left a {
   width: 32px;
   height: 32px;
   text-align: center;
   border-bottom: dotted 1px #ccc;
-  padding: 10px 0;
+  padding: 10px;
 }
-/* line 150, ../sass/_louti_right.scss */
+/* line 153, ../sass/_louti_right.scss */
 .louti_left .return_top {
-  background: url(../images/huojian.png) no-repeat;
+  background: url(../images/huojian.png) no-repeat 15px 10px;
+}
+/* line 156, ../sass/_louti_right.scss */
+.louti_left .gray:hover {
+  background-color: #ff7b30;
 }
 
 /* line 2, ../sass/_footer.scss */
+#bottom1 {
+  background-color: #f8f8f8;
+  border-top: 1px solid #ccc;
+}
+
+/* line 6, ../sass/_footer.scss */
 footer {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 6, ../sass/_footer.scss */
+/* line 11, ../sass/_footer.scss */
 .footer_links {
   display: flex;
   align-items: center;
@@ -1178,30 +1191,30 @@ footer {
   zoom: 1;
 }
 
-/* line 14, ../sass/_footer.scss */
+/* line 19, ../sass/_footer.scss */
 .footer_links_list {
   font-size: 12px;
   color: #111;
 }
-/* line 17, ../sass/_footer.scss */
+/* line 22, ../sass/_footer.scss */
 .footer_links_list a {
   font-size: 12px;
   color: #111;
 }
-/* line 20, ../sass/_footer.scss */
+/* line 25, ../sass/_footer.scss */
 .footer_links_list a:hover {
   color: #ff1268;
   text-decoration: underline;
 }
 
-/* line 26, ../sass/_footer.scss */
+/* line 31, ../sass/_footer.scss */
 .footer_links_grep {
   padding: 0 24px;
   font-size: 12px;
   color: #111;
 }
 
-/* line 31, ../sass/_footer.scss */
+/* line 36, ../sass/_footer.scss */
 .footer_ft {
   padding-bottom: 58px;
   zoom: 1;
@@ -1209,13 +1222,13 @@ footer {
   justify-content: space-between;
 }
 
-/* line 37, ../sass/_footer.scss */
+/* line 42, ../sass/_footer.scss */
 .footer_fl {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-/* line 41, ../sass/_footer.scss */
+/* line 46, ../sass/_footer.scss */
 .footer_fl a {
   zoom: 1;
   float: left;
@@ -1223,12 +1236,12 @@ footer {
   width: 167px;
   height: 60px;
 }
-/* line 47, ../sass/_footer.scss */
+/* line 52, ../sass/_footer.scss */
 .footer_fl a img {
   width: 100%;
   display: block;
 }
-/* line 52, ../sass/_footer.scss */
+/* line 57, ../sass/_footer.scss */
 .footer_fl .footer_code_box {
   width: 87px;
   text-align: center;
@@ -1236,7 +1249,7 @@ footer {
   font-size: 14px;
   color: #111111;
 }
-/* line 58, ../sass/_footer.scss */
+/* line 63, ../sass/_footer.scss */
 .footer_fl .footer_code_box img {
   display: block;
   width: 87px;
@@ -1244,12 +1257,12 @@ footer {
   margin-bottom: 8px;
 }
 
-/* line 67, ../sass/_footer.scss */
+/* line 72, ../sass/_footer.scss */
 .footer_fr .footer_fr_contact {
   zoom: 1;
   padding-bottom: 10px;
 }
-/* line 70, ../sass/_footer.scss */
+/* line 75, ../sass/_footer.scss */
 .footer_fr .footer_fr_contact a {
   display: block;
   width: 98px;
@@ -1261,36 +1274,36 @@ footer {
   font-size: 14px;
   border-radius: 20px;
 }
-/* line 82, ../sass/_footer.scss */
+/* line 87, ../sass/_footer.scss */
 .footer_fr .footer_fr_words {
   padding-bottom: 6px;
   zoom: 1;
   display: flex;
 }
-/* line 86, ../sass/_footer.scss */
+/* line 91, ../sass/_footer.scss */
 .footer_fr .footer_fr_words .footer_links_grep {
   padding: 0 15px;
 }
-/* line 90, ../sass/_footer.scss */
+/* line 95, ../sass/_footer.scss */
 .footer_fr .footer_fr_words a:hover {
   text-decoration: none;
 }
-/* line 93, ../sass/_footer.scss */
+/* line 98, ../sass/_footer.scss */
 .footer_fr .footer_fr_img {
   display: flex;
   align-items: center;
   padding-top: 15px;
 }
-/* line 97, ../sass/_footer.scss */
+/* line 102, ../sass/_footer.scss */
 .footer_fr .footer_fr_img a {
   margin-right: 5px;
 }
-/* line 99, ../sass/_footer.scss */
+/* line 104, ../sass/_footer.scss */
 .footer_fr .footer_fr_img a img {
   display: block;
   height: 30px;
 }
-/* line 104, ../sass/_footer.scss */
+/* line 109, ../sass/_footer.scss */
 .footer_fr .footer_fr_img a:nth-of-type(3) img {
   width: 114px;
   height: 40px;
@@ -1344,4 +1357,9 @@ ul {
 /* line 44, ../sass/index.scss */
 .active {
   position: -47px -158px;
+}
+
+/* line 47, ../sass/index.scss */
+.show_bg {
+  background: #ff7b30;
 }

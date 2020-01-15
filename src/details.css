@@ -1,0 +1,321 @@
+#_wrapper{
+    width: 1200px;
+    position: relative;
+    z-index: 100;
+    margin: 0 auto;
+    height: 530px;
+    min-width: 950px;
+}
+#innerwrapper {
+    width: 1198px;
+    border: 1px solid #e9e9e9;
+    margin-top: 10px;
+}
+#preview {
+    width: 398px;
+    margin: 20px 20px 0;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+.sellout {
+    position: relative;
+    z-index: 8;
+}
+.scontent {
+    position: absolute;
+    background: url(http://i0.ulecdn.com/i/vi/2014/0730/icosellout.png);
+    left: 1px;
+    top: 1px;
+    width: 74px;
+    height: 74px;
+    text-indent: -5em;
+    overflow: hidden;
+}
+#preview .jqzoom {
+    width: 398px;
+    height: 398px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: url(http://i0.ulecdn.com/i/vi/2014/0730/loading.gif) center center no-repeat;
+    position: relative;
+}
+td, th, a {
+    color: #666;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+img {
+    border: 0;
+}
+.proImg {
+    cursor: crosshair;
+}
+#preview .izViewer {
+    width: 398px;
+    height: 398px;
+    position: absolute;
+    left: 398px;
+    top: 0;
+    z-index: 999999;
+}
+#preview .izImage, #preview .izViewer {
+    background: url(/i/vi/2014/0730/loading.gif) #fff no-repeat center;
+}
+#spec-list.no_center {
+    padding: 0;
+    width: 400px;
+    left: -18px;
+    padding-bottom: 20px;
+}
+#spec-list {
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+}
+#spec-list .spec-items {
+    top: 0;
+    left: 11px;
+}
+#spec-list .spec-items li {
+    width: 76px;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+    float: left;
+}
+#spec-list .spec-items img {
+    width: 56px;
+    height: 56px;
+    padding: 2px;
+    border: 1px solid #e7e7e7;
+}
+#spec-list .spec-items .active img {
+    padding: 1px;
+    border: 2px solid #c00;
+}
+.productInfo {
+    float: left;
+    padding-right: 20px;
+    position: relative;
+    z-index: 1;
+    transition: width ease .25s;
+}
+.productInfo h2.subtitle {
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+    padding-top: 2px;
+    padding-left: 0;
+}
+.subtitle {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.pi_detail {
+    width: 573px;
+    height: 100px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.pi_detail dl.proDetail_itemId {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    border-top: none;
+    padding: 10px 0;
+    margin: 0;
+}
+.horiDl dt, .productPrice dt, .ylPrice dt {
+    width: 58px;
+}
+.horiDl dd, .horiDl dt, .productPrice dd, .productPrice dt, .ylPrice dt {
+    float: left;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+.pi_detail dl {
+    clear: both;
+}
+.pi_detail dl.productPrice dt, .pi_detail dl.ylPrice dt {
+    padding-top: 8px;
+}
+.horiDl dt, .productPrice dt, .ylPrice dt {
+    width: 58px;
+}
+.productPrice .price span {
+    font-weight: bold;
+}
+.pi_detail dl.productPrice dd {
+    line-height: 20px;
+}
+.pi_detail dl.productPrice dd span, .pi_detail dl.ylPrice dd span {
+    color: #c52e15;
+    font-size: 18px;
+}
+.pi_detail dl.productPrice dd strong {
+    color: #c52e15;
+    font-family: "微软雅黑";
+    font-size: 30px;
+}
+del {
+    color: #999;
+    text-decoration: line-through;
+}
+.pi_detail dl.productPrice dd del {
+    font-size: 15px;
+    padding-left: 8px;
+    position: relative;
+}
+.pi_detail dl.productPrice dd .maxPrice-intro {
+    float: right;
+    position: relative;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.pi_detail dl.productPrice dd .maxPrice-intro .icon {
+    width: 14px;
+    height: 16px;
+    display: block;
+    background: url(http://i0.ulecdn.com/j/app/vi/2017/0919/common/icon.png) 0 0 no-repeat;
+}
+.productPrice .price span {
+    color: #AF0505;
+    font-weight: bold;
+}
+.pi_detail dl.productPrice dd span, .pi_detail dl.ylPrice dd span {
+    color: #c52e15;
+    font-size: 18px;
+}
+.pi_detail dl.productPrice dd .maxPrice-intro .font {
+    width: 178px;
+    line-height: 20px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #2196f3;
+    position: absolute;
+    left: 24px;
+    top: -18px;
+    color: #2196f3;
+    box-shadow: 1px 2px 5px #999;
+    z-index: 999;
+}
+.productPrice .price i, .ylPrice .price i {
+    font-size: 18px;
+}
+.pi_detail dl.productPrice dd .maxPrice-intro .font i, .proDetail_taxes .taxes .hw_tip_show i {
+    width: 4px;
+    height: 6px;
+    background: url(http://i0.ulecdn.com/j/app/vi/2017/0919/common/icon.png) -24px 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: -5px;
+}
+.productPrice .price i {
+    font-style: normal;
+    color: #f60;
+}
+.proDetail_spec {
+    margin: 5px 0 10px;
+    padding: 5px 0 5px;
+    border: none !important;
+    overflow: hidden;
+    clear: both;
+}
+dl.attrCubeHolder, dl.colorCubeHolder {
+    padding: 5px 0 8px;
+}
+dl.attrCubeHolder, dl.colorCubeHolder {
+    padding: 5px 0 8px;
+}
+dl.attrCubeHolder dt, dl.attrQuantity dt, dl.colorCubeHolder dt, dl.selectedtext dt {
+    width: 58px;
+    line-height: 30px;
+    float: left;
+}
+#currentAttributeValue1, #currentAttributeValue2 {
+    display: none;
+}
+ .has_pro dl.attrCubeHolder dd,  .has_pro dl.attrQuantity dd,  .has_pro dl.colorCubeHolder dd,  .has_pro dl.selectedtext dd {
+    width: 510px;
+}
+ dl.attrCubeHolder dd,  dl.attrQuantity dd,  dl.colorCubeHolder dd,  dl.selectedtext dd {
+    width: 670px;
+    float: left;
+}
+dl.attrCubeHolder dd li, dl.colorCubeHolder dd li {
+    float: left;
+    padding: 0 10px 7px 0;
+}
+.attrCubeHolder dd a.curr, .attrCubeHolder dd a.curr:hover, .colorCubeHolder dd a.curr, .colorCubeHolder dd a.curr:hover {
+    margin: -1px;
+    border: 2px solid #A71F24;
+    color: #666;
+    text-decoration: none;
+}
+.attrCubeHolder dd a.attrCube, .colorCubeHolder dd a.colorCube {
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    text-indent: 0;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+.proDetail_spec dd a sub {
+    position: absolute;
+    right: 423px;
+    bottom: 155px;
+    width: 14px;
+    height: 14px;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(http://i0.ulecdn.com/i/vi/2014/0730/selected.png) no-repeat;
+    vertical-align: text-bottom;
+}
+.attrQuantity .addQuantity, .attrQuantity .reduceQuantity {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    border: solid 1px #999;
+    text-align: center;
+    line-height: 24px;
+    background: #fff;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+}
+.attrQuantity .reduceQuantity {
+    border-right: none;
+}
+.attrQuantity dd .pCount {
+    width: 48px;
+    display: block;
+    float: left;
+    font-family: Arial;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+.attrQuantity .addQuantity {
+    border-left: none;
+}

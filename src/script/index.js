@@ -83,20 +83,68 @@ class banner{
     }
     
 }
-
+// 楼梯
 class stair{
     constructor(){
+        this.louti=$('.louti_left')
+        this.louti_a=$('.louti_left a')
+        this.louceng=$('.louceng_one')
+        this.last=$('.return_top')
+        this._up=$('.back_top')
+    }
+    init(){
+        //点击楼层的方法
+        let  _this=this
+        this.louti_a.not('.return_top').on('click',function(){
+            $(this).addClass('show_bg').siblings('a').removeClass('show_bg');
+            let $top_val=_this.louceng.eq($(this).index()).offset().top;
+            $('html').animate({
+                scrollTop:$top_val
+            });
+        })
+        this.last.on('click',function(){
+            $('html').animate({
+                scrollTop:0
+            })
+        });
+        this._up.on('click',function(){
+            $('html').animate({
+                scrollTop:0
+            })
+        })
+        // 窗口滚动条
+        let $top=$(window).scrollTop();
+        if($top>=1200){
+            this.louti.show();
+        }else{
+            this.louti.hide()
+        }
+        $(window).on('scroll',function(){
+            $top=$(window).scrollTop();
+            if($top>=1200){
+                _this.louti.show();
+            }else{
+                _this.louti.hide()
+            }
+            _this.louceng.each(function(index,element){
+                let $louceng_top=_this.louceng.eq(index).offset().top;
+                if($louceng_top>=$top){
+                    _this.louti_a.eq(index).addClass('show_bg').siblings('a').removeClass('show_bg');
+                    return false
+                }
+            });
+        });
+        
 
     }
-    inint(){
-        
-    }
+
 }
 define([],function(){
     return {
         init:function(){
             new render().init();
             new banner().init();
+            new stair().init();
         }
     }
 })

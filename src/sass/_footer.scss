@@ -1,7 +1,12 @@
 @import './hover';
+#bottom1{
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+}
 footer {
     width: $size_2;
     margin: 0 auto;
+    
 }
 .footer_links {
     display: flex;
