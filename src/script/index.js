@@ -91,6 +91,7 @@ class stair{
         this.louceng=$('.louceng_one')
         this.last=$('.return_top')
         this._up=$('.back_top')
+        this.top_levitate=$('.fixed-menu')
     }
     init(){
         //点击楼层的方法
@@ -116,15 +117,19 @@ class stair{
         let $top=$(window).scrollTop();
         if($top>=1200){
             this.louti.show();
+            this.top_levitate.show()
         }else{
             this.louti.hide()
+            this.top_levitate.hide()
         }
         $(window).on('scroll',function(){
             $top=$(window).scrollTop();
             if($top>=1200){
                 _this.louti.show();
+                _this.top_levitate.show()
             }else{
                 _this.louti.hide()
+                _this.top_levitate.hide()
             }
             _this.louceng.each(function(index,element){
                 let $louceng_top=_this.louceng.eq(index).offset().top;
@@ -134,10 +139,10 @@ class stair{
                 }
             });
         });
-        
-
     }
-
+    details(){
+        
+    }
 }
 define([],function(){
     return {

@@ -1169,6 +1169,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: #ff7b30;
 }
 
+/* line 160, ../sass/_louti_right.scss */
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 51px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-image: url(http://i0.ulecdn.com/ule/common/css/images/zjl_icon_001.png);
+  background-repeat: repeat;
+  border-bottom: 1px solid #d5d5d5;
+  -webkit-box-shadow: 1px 1px 3px #d5d5d5;
+  z-index: 100000000;
+}
+/* line 172, ../sass/_louti_right.scss */
+.fixed-menu .fixed-middel {
+  width: 1200px;
+  zoom: 1;
+  margin: 0 auto;
+  clear: both;
+}
+/* line 178, ../sass/_louti_right.scss */
+.fixed-menu .fixed-logo {
+  background-image: url(http://i0.ulecdn.com/ule/common/css/images/zjl_icon_002.png);
+  width: 54px;
+  height: 40px;
+  float: left;
+  margin-top: 5px;
+}
+/* line 185, ../sass/_louti_right.scss */
+.fixed-menu .head-search {
+  width: 533px;
+  float: right;
+  position: relative;
+  margin-top: 7px;
+  margin-right: 376px;
+}
+/* line 191, ../sass/_louti_right.scss */
+.fixed-menu .head-search form {
+  height: 36px;
+  display: block;
+}
+
 /* line 2, ../sass/_footer.scss */
 #bottom1 {
   background-color: #f8f8f8;

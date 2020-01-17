@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./common.css">
-    <link rel="stylesheet" href="./login.css">   
+    <link rel="stylesheet" href="./login.css">
     <link rel="stylesheet" href="./stylesheets/index.css">
     <link rel="stylesheet" href="./details.css">
+    <script src="./script/require.js" defer async="true" data-main="script/main.js" id="current"
+        target="./script/details.js"></script>
 </head>
 
 <body>
@@ -18,7 +20,7 @@
             <div class="layout">
 
                 <ul class="fl" data-uspm="111">
-                    <li class="lihome"><a data-uspm="home" href="#" target="_blank">邮乐首页</a></li>
+                    <li class="lihome"><a data-uspm="home" href="./index1.html" target="_blank">邮乐首页</a></li>
                 </ul>
                 <ul class="userinfo fr" data-uspm="111" data-uspm-type="all">
                     <li class="welcome"><a title="" href="#" target="_blank" class="blue"></a> 您好<span
@@ -71,23 +73,31 @@
 
         </div>
     </div>
-    <div id=_wrapper>
+    <div id=_wrapper style="border-bottom: none;">
         <div id="innerWrapper" class="clrfix" data-uspm="1212" data-uspm-type="all">
 
             <div id="preview">
                 <div class="sellout" style="display: none;">
                     <div class="scontent">已售完</div>
                 </div>
+
                 <div class="jqzoom">
+                    <!---------------------小图-------------------->
                     <a href="//item.ule.com/tu/4112592-0-1.html" title="旺旺 旺仔牛奶125ml*24盒 甜奶早餐儿童饮料学生图片">
                         <img id="proImg" class="proImg"
                             src="//pic.ulecdn.com/pic/user_800115512/product/prd20191031/1d074b919f926d62_p800x800_xl.jpg"
                             alt="旺旺 旺仔牛奶125ml*24盒 甜奶早餐儿童饮料学生" width="398" height="398" s="xl">
                     </a>
+                    <!-- 小放 -->
+                    <div id="s_idViewer"></div>
                 </div>
-                <div id="idViewer" class="izViewer" style="display: none; padding: 0px; overflow: hidden;"><img
-                        src="http://pic.ulecdn.com/pic/user_800115512/product/prd20191031/1d074b919f926d62_p800x800_y.jpg"
-                        width="800" height="800" style="position: absolute; left: 0px; top: -402px;"></div>
+                <!-- 大放 -->
+                <div id="idViewer" class="izViewer" style="display: none; padding: 0px; overflow: hidden;">
+                    <!------------------------ 大图 ------------------->
+                    <img src="http://pic.ulecdn.com/pic/user_800115512/product/prd20191031/1d074b919f926d62_p800x800_y.jpg"
+                        width="800" height="800" style="position: absolute; left: 0px; top: -402px;">
+                </div>
+
                 <div id="spec-list" class="no_center">
 
 
@@ -136,11 +146,11 @@
                                     <span class="iIcon">预估奖金为可获奖金最大值，<br>实际获得根据支付方式而定。<b></b></span>
                                 </b>
                             </dd>
-                        </dl>W
+                        </dl>
                         <div id="float_Menu" style="display: block;"></div>
                         <div class="float-box-2d"><s></s>
-                          
-                            
+
+
                         </div>
                     </div>
                     <div class="proDetail_spec">
@@ -168,8 +178,9 @@
                         </dl>
                         <dl class="selectedtext clear" style="line-height:30px;">
                             <dt style="width:50px; float:left;">已选择</dt>
-                            <dd style="color:#B30808; font-weight:800; float:left;"><span class="colorCubetext"></span><span
-                                    class="attrCubetext">125ml*24盒，</span><span class="pCounttext">1件</span></dd>
+                            <dd style="color:#B30808; font-weight:800; float:left;"><span
+                                    class="colorCubetext"></span><span class="attrCubetext">125ml*24盒，</span><span
+                                    class="pCounttext">1件</span></dd>
                         </dl>
                     </div>
 
@@ -182,7 +193,7 @@
                         <div class="fenqi950 clear">
                         </div>
                         <div class="addtocart clear">
-                            <a data-uspm="buy" title="" class="btn_exchange">立即购买</a>
+                            <a href="./cartlist.html" data-uspm="buy" title="" class="btn_exchange">立即购买</a>
                             <a data-uspm="cart" class="btn_add2cart" title="">加入购物车</a>
                             <a data-uspm="favor" title="" class="add2fav02">收藏</a>
                         </div>
@@ -190,7 +201,8 @@
 
                     <div class="proDetail_pay clear por">
 
-                        <span class="fr" id="listingPoint" style="display:none;">可获积分 <span class="c-red">0分</span></span>
+                        <span class="fr" id="listingPoint" style="display:none;">可获积分 <span
+                                class="c-red">0分</span></span>
                     </div>
                     <div class="goods_info_bottom clear">
                         <div class="goods_info_bottom_l">
@@ -200,9 +212,6 @@
                             </div>
                             <div class="send-tips">周六、周日不支持发货</div>
                         </div>
-                        <!--  <div class="goods_info_bottom_r">
-                            <a rel="nofollow" target="_blank" href="//feedback.ule.com/feedback/toReport.do">举报</a>
-                        </div>	 -->
                     </div>
                 </div>
             </div>

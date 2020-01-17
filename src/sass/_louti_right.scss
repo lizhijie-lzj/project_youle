@@ -157,3 +157,40 @@
         background-color: #ff7b30;
     }
 }
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 51px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-image: url(http://i0.ulecdn.com/ule/common/css/images/zjl_icon_001.png);
+    background-repeat: repeat;
+    border-bottom: 1px solid #d5d5d5;
+    -webkit-box-shadow: 1px 1px 3px #d5d5d5;
+        .fixed-middel {
+            width: 1200px;
+            zoom: 1;
+            margin: 0 auto;
+            clear: both;
+        }
+            .fixed-logo {
+                        background-image: url(http://i0.ulecdn.com/ule/common/css/images/zjl_icon_002.png);
+                        width: 54px;
+                        height: 40px;
+                        float: left;
+                        margin-top: 5px;
+        }
+        .head-search{
+            width: 533px;
+            float: right;
+            position: relative;
+            margin-top: 7px;
+            margin-right: 376px;
+            form{
+                height: 36px;
+                display: block;
+            }
+        }
+}
